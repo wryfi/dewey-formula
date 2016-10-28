@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# vim swap files
+*.swp
+
+# pycharm crap
+.idea
+
+.pairs
+
+.kitchen.local.yml
+.kitchen
