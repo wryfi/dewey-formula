@@ -22,8 +22,7 @@ dewey:
     - gid_from_name: true
     - require:
       - group: dewey
-  pkg.installed:
-    - version: {{ dewey_version }}
+  pkg.latest:
     - require:
       - user: dewey
   service.running:
